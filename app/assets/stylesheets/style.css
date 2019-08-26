@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+
+header.menutren {
+    background-color: #80808000;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.center {
+    width: 80%;
+    margin: auto;
+}
+
+.left {
+    width: 20%;
+    float: left;
+}
+
+.right {
+    width: 80%;
+    float: right;
+    text-align: right;
+}
+
+a.logo {
+    font-family: 'Kaushan Script', cursive;
+    text-decoration: none;
+    font-size: 4em;
+    color: floralwhite;
+    display: block;}
+
+nav ul li {
+    float: left;
+    display: block;
+    list-style: none;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li a {
+    list-style: none;
+    color: white;
+    padding: 10px 15px 0 0px;
+    margin-top: 30px;
+    display: block;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+}
+
+.home {
+    width: 100%;
+    margin: auto;
+    font-size: 24px;
+}
+
+div#carouselExampleControls {
+    height: 700px;
+}
+
+img.d-block.w-100 {
+    height: 700px;
+    filter: brightness(0.6);
+}
+
+a.carousel-control-prev {
+    margin-top: auto;
+}
+
+a.carousel-control-next {
+    margin-top: auto;
+}
+
+.carousel-caption{
+    top: 42%;
+}
+
+#services{
+    height: 1000px;
+    width: 100%;
+}
