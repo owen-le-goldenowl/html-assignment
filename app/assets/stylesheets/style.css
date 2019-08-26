@@ -30,7 +30,9 @@ a.logo {
     text-decoration: none;
     font-size: 4em;
     color: floralwhite;
-    display: block;}
+    display: block;
+    margin-left: 32%;
+}
 
 nav ul li {
     float: left;
@@ -40,6 +42,7 @@ nav ul li {
 
 nav {
     float: right;
+    margin-right: 7%;
 }
 
 nav ul li a {
@@ -83,6 +86,38 @@ a.carousel-control-next {
 }
 
 #services{
-    height: 1000px;
+    height: auto;
     width: 100%;
+    background-color: #1a599c;
+}
+
+#services .container .title h3.pt-3 {
+    font-size: 3rem;
+}
+
+#services .container .title p{
+    opacity: 0.7;
+}
+#services .container .title.text-center {
+    padding: 10px 0 20px 0;
+}
+.row p{
+    opacity: 0.7;
+}
+.service_icon{
+    font-size: 1em;
+}
+span.service_icon {
+    display: block;
+    float: left;
+    position: absolute;
+    left: 30%;
+}
+
+h5 {
+    width: 100%;
+}
+
+.subject {
+    position: relative;
 }
