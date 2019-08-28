@@ -136,8 +136,6 @@ h5 {
 
 #clients {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("waterfall.jpg");
-    /* background-color: rgba(0, 0, 0, 0.5); */
     background-size: cover;
     height: 450px;
 }
-
