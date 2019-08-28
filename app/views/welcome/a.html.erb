@@ -1,0 +1,16 @@
+<h2>get json from server</h2>
+<button class="getJSONBtn"> click</button>
+<p id="showJSON"></p>
+<script type="text/javascript" charset="utf-8">
+    $('.getJSONBtn').click(function () {
+        $.ajax({
+            url: '/test.jso'
+        })
+            .done(function (data) {
+                $("#showJSON").append(data.name + ": " + data.age + "\n");
+            })
+            .fail(function (data) {
+                alert('error');
+            })
+    });
+</script>
