@@ -17,3 +17,4 @@
 //= require popper
 //= require bootstrap
 //= require script
+//= require jquery.bcSwipe.min.js
