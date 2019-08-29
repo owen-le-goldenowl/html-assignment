@@ -1,16 +1,61 @@
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
 
-.navbar {
+header.menutren {
     background-color: #80808000;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
-.navbar-brand {
+
+.center {
+    width: 80%;
+    margin: auto;
+}
+
+.left {
+    width: 20%;
+    float: left;
+}
+
+.right {
+    width: 80%;
+    float: right;
+    text-align: right;
+}
+
+a.logo {
     font-family: 'Kaushan Script', cursive;
     text-decoration: none;
-    font-size: 2em;
-    margin-right: 10rem;
+    font-size: 4em;
+    color: floralwhite;
+    display: block;
+    margin-left: 32%;
 }
-nav a{
+
+nav ul li {
+    float: left;
+    display: block;
+    list-style: none;
+}
+
+nav {
+    float: right;
+    margin-right: 7%;
+}
+
+nav ul li a {
+    list-style: none;
+    color: white;
+    padding: 10px 15px 0 0px;
+    margin-top: 30px;
+    display: block;
     font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
 }
 
 .home {
@@ -85,7 +130,7 @@ h5 {
     height: auto;
 }
 
-/* #projects {
+#projects{
     height: 392px;
 } */
 
@@ -94,11 +139,6 @@ h5 {
     background-size: cover;
     height: 450px;
 }
-
-#contact {
+#contact{
     background: rgba(128, 128, 128, 0.089);
-}
-
-.navbar-inner {
-    background: transparent;
 }
