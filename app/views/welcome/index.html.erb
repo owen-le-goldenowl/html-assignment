@@ -1,406 +1,488 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>lamda</title>
-
-  <script src="https://kit.fontawesome.com/1b32ad5942.js"></script>
-</head>
-<body>
-
-<header class="menutren">
-  <!--    START LOGO-->
-  <div class="center">
-    <div class="left">
-      <a href="#" class='logo'>Lamda</a>
-    </div>
-    <!--    END LOGO-->
-    <!--    START MENU-->
-    <div class="right">
-      <nav>
-        <ul>
-          <li><a href="#" class="nav_home">HOME</a></li>
-          <li><a href="#" class="nav_services">SERVICES</a></li>
-          <li><a href="#" class=nav_projects>PROJECTS</a></li>
-          <li><a href="#" class="nav clients">CLIENTS</a></li>
-          <li><a href="#" class="nav_meet">MEET THE TEAM</a></li>
-          <li><a href="#" class="nav_contact">CONTACT US</a></li>
-        </ul>
-      </nav>
-    </div>
-    <!--    END MENU-->
-  </div>
-</header>
-<!--START CAROUSEL-->
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-
-  <div class="carousel-inner">
-    <!--    START IMAGE 1-->
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="/assets/forest-1.jpeg" alt="First slide">
-      <div class="carousel-caption d-block">
-        <h5>abc</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, eveniet! Eius itaque odit ullam repellat vero
-          earum quos nemo quae laboriosam, minus nesciunt reiciendis qui beatae debitis, enim alias nobis.</p>
-      </div>
-    </div>
-    <!--END IMAGE 1-->
-    <!--    START IMAGE 2-->
-    <div class="carousel-item">
-      <img class="d-block w-100" src="/assets/forest-2.jpeg" alt="Second slide">
-      <div class="carousel-caption d-block">
-        <h5>rrmrmgn</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam repudiandae nisi aperiam ab consequatur eos
-          velit, consectetur facere, cumque labore nesciunt vero nostrum sapiente perspiciatis temporibus quibusdam
-          deleniti beatae ullam.</p>
-      </div>
-    </div>
-    <!--    END IMAGE 2-->
-  </div>
-
-  <!-- BACK BUTTON-->
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-
-  <!--NEXT BUTTON-->
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<!--END CAROUSEL-->
-
-<!--START SERVICES SECTION-->
-<section id="services" class="text-white">
-
-  <div class="container">
-    <div class="title text-center">
-      <h3 class="section_title pt-5 mb-4"> Services</h3>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem perferendis, incidunt laboriosam nihil
-        tempora quia enim f</p>
-
-    </div>
-    <!--    START 1ST ROW-->
-    <div class="row text-center">
-
-      <div class="col">
-        <div class="subject">
-          <span class="service_icon">
-            <i class="fab fa-affiliatetheme"></i>
-         </span>
-          <h5>lorem</h5>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lamda</title>
+    <script src="https://kit.fontawesome.com/1b32ad5942.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="100">
+    <div class="menutren">
+      <!--    START LOGO-->
+      <div class="center">
+        <div class="left">
+          <a href="#" class='logo'>Lamda</a>
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur nam tempore perferendis cumque quaerat
-          aliquid undeemo.</p>
-      </div>
-
-      <div class="col">
-        <div class="subject">
-          <span class="service_icon">
-            <i class="fab fa-affiliatetheme"></i>
-         </span>
-          <h5>lorem</h5>
-        </div>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur nam tempore perferendis cumque quaerat
-          aliquid unde. Aliis nemo.</p>
-      </div>
-
-      <div class="col">
-        <div class="subject">
-          <span class="service_icon">
-            <i class="fab fa-affiliatetheme"></i>
-         </span>
-          <h5>lorem</h5>
-        </div>
-        <p>Lorem ipsum dolor sit amet consectetur, am exercitationem quod iusto eius dicta qui possimus dignissimos!
-          Ullam velit harum quis nemo.</p>
-      </div>
-    </div>
-    <!--    END 1ST ROW-->
-    <!--    START 2ND ROW-->
-    <div class="row text-center">
-      <!--      ITEM 1-->
-      <div class="col">
-        <div class="subject">
-          <span class="service_icon">
-            <i class="fab fa-affiliatetheme"></i>
-         </span>
-          <h5>lorem</h5>
-        </div>
-        <p class="info'">Lorem ipsum dolor sit auid unde. Aliquam exercitationem quod iusto eius dicta qui possimus
-          dignissimos! Ullam
-          velit harum quis nemo.</p>
-      </div>
-      <!--      END ITEM 1-->
-      <!--      ITEM 2-->
-      <div class="col">
-        <div class="subject">
-          <span class="service_icon">
-            <i class="fab fa-affiliatetheme"></i>
-         </span>
-          <h5>lorem</h5>
-        </div>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur nam tempore perferendis cumque quaerat
-          aliqt harum quis nemo.</p>
-      </div>
-      <!--      END ITEM 2-->
-      <!--      ITEM 3-->
-      <div class="col">
-        <div class="subject">
-          <span class="service_icon">
-            <i class="fab fa-affiliatetheme"></i>
-         </span>
-          <h5>lorem</h5>
-        </div>
-        <p>Lorem ipsum dolor sit amet nde. Aliquam exercitationem quod iusto eius dicta qui possimus dignissimos! Ullam
-          velit harum quis nemo.</p>
-      </div>
-    </div>
-    <!--    END ITEM 3-->
-    <!--    END SECOND ROW-->
-  </div>
-
-</section>
-<!--END SERVICES SECTION-->
-
-<!--BEGIN THE PROJECTS SECTION-->
-<div id="projects" class="container">
-
-  <div class="row justify-content-center mb-3">
-    <div class="col-lg-9">
-      <div class="text-center pt-5">
-        <h3 class="section_title mb-4">Projects</h3>
-        <p class="text-uppercase pb-3">
-          Lorem ipsum dolor sitm molestiae unde oremque, nobis doloribus.
-        </p>
-      </div>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quo tempore blanditiis accusamus nobis
-        recusandae laboriosam quisquam a repudiandae eius! Minus aliquid, odit rerum quisquam quibusdam dolorum. Minus,
-        enim fuga.
-      </p>
-    </div>
-  </div>
-
-  <!--START ITEM CAROUSEL -->
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="2000">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="row justify-content-center">
-            <div class="col-md-2 col-sm-6 col-12">
-              <a href="#"><img src="assets/box.jpg" class="img-fluid"></a>
+        <!--    END LOGO-->
+        <!--    START MENU-->
+        <div class="right">
+          <%# <nav class="navbar navbar-inverse navbar-fixed-top"> %>
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="#home" class="nav-link text-white">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a href="/#services" class="nav-link text-white">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                  <a href="/#projects" class="nav-link text-white">PROJECTS</a>
+                </li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" href="#clients" id="navbarDropdown" data-toggle="dropdown">
+                    CLIENTS
+                  </a>
+                  <div class="dropdown-menu" >
+                    <a class="dropdown-item" href="#clients">Project 1</a>
+                    <a class="dropdown-item" href="#clients">Project 2</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a href="#team" class="nav-link text-white">MEET THE TEAM</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#contact" class="nav-link text-white">CONTACT US</a>
+                </li>
+              </ul>
             </div>
-            <div class="col-md-2 col-sm-6 col-12">
-              <a href="#"><img src="assets/box.jpg" class="img-fluid"></a>
-            </div>
-            <div class="col-md-2 col-sm-6 col-12">
-              <a href="#"><img src="assets/box.jpg" class="img-fluid"></a>
-            </div>
-            <div class="col-md-2 col-sm-6 col-12">
-              <a href="#"><img src="assets/box.jpg" class="img-fluid"></a>
+          </nav>
+        </div>
+        <!--    END MENU-->
+      </div>
+    </div>
+    <div id="home">
+      <!--START CAROUSEL-->
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <!--    START IMAGE 1-->
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="/assets/forest-1.jpeg" alt="First slide">
+            <div class="carousel-caption d-block">
+              <h5>abc</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, eveniet! Eius itaque odit ullam repellat vero
+                earum quos nemo quae laboriosam, minus nesciunt reiciendis qui beatae debitis, enim alias nobis.</p>
             </div>
           </div>
-        </div>
-
-        <div class="carousel-item">
-          <div class="row justify-content-center">
-            <div class="col-md-2 col-sm-6 col-12">
-              <a href="#"><img src="assets/gold.jpeg" class="img-fluid"></a>
+          <!--END IMAGE 1-->
+          <!--    START IMAGE 2-->
+          <div class="carousel-item">
+            <img class="d-block w-100" src="/assets/forest-2.jpeg" alt="Second slide">
+            <div class="carousel-caption d-block">
+              <h5>rrmrmgn</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam repudiandae nisi aperiam ab consequatur eos
+                velit, consectetur facere, cumque labore nesciunt vero nostrum sapiente perspiciatis temporibus quibusdam
+                deleniti beatae ullam.</p>
             </div>
-            <div class="col-md-2 col-sm-6 col-12">
-              <a href="#"><img src="assets/gold.jpeg" class="img-fluid"></a>
-            </div>
-            <div class="col-md-2 col-sm-6 col-12">
-              <a href="#"><img src="assets/gold.jpeg" class="img-fluid"></a>
-            </div>
-            <div class="col-md-2 col-sm-6 col-12">
-              <a href="#"><img src="assets/gold.jpeg" class="img-fluid"></a>
-            </div>
-
           </div>
+          <!--    END IMAGE 2-->
         </div>
-        <a class="carousel-control-prev text-black" href="#carouselExampleControls" role="button" data-slide="prev">
+        <!-- BACK BUTTON-->
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next text-black" href="#carouselExampleControls" role="button" data-slide="next">
+        <!--NEXT BUTTON-->
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
       </div>
+      <!--END CAROUSEL-->
     </div>
-  <!-- END ITEM CAROUSEL-->
-</div>
-<!--END THE PROJECTS SECTION-->
-
-<!--START THE CLIENT SECTION-->
-<div id="clients" class="h-120 w-100 overlay overlay-show text-white mt-3">
-  <div class="container">
-    <!-- START SECTION INFO -->
-    <div class="row justify-content-center text-center">
-      <h3 class="mt-4 pt-3 section_title">Clients</h3>
-      <p class="w-100 text-uppercase mt-1 pt-2">
-        Ab architecto cum cumque doloremque, esse excepturi itaque praesentium
-        quam.</p>
-    </div>
-    <!-- END SECTION INFO -->
-
-    <!-- START LOGO SLIDER -->
-    <div id="logo-slider" class="carousel slide mt-3 pt-3" data-ride="carousel" data-interval=3000>
-      <div class="carousel-inner">
-      <!--  START 1ST ITEM  -->
-      <div class="carousel-item active">
-        <div class="row">
-          <div class="col">
-            <img src="assets/logo2.png" alt="1 slide" class="img-fluid">
+    <!--START SERVICES SECTION-->
+    <section id="services" class="text-white">
+      <div class="container">
+        <div class="title text-center">
+          <h3 class="section_title pt-5 mb-4"> Services</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem perferendis, incidunt laboriosam nihil
+            tempora quia enim f</p>
+        </div>
+        <!--    START 1ST ROW-->
+        <div class="row text-center">
+          <div class="col-sm-12 col-lg-4">
+            <div class="subject">
+              <span class="service_icon">
+                <i class="fab fa-affiliatetheme"></i>
+              </span>
+              <h5>lorem</h5>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur nam tempore perferendis cumque quaerat
+              aliquid undeemo.</p>
           </div>
-          <div class="col">
-            <img src="assets/logo3.png" alt="2 slide" class="img-fluid">
+          <div class="col-sm-12 col-lg-4">
+            <div class="subject">
+              <span class="service_icon">
+                <i class="fab fa-affiliatetheme"></i>
+              </span>
+              <h5>lorem</h5>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur nam tempore perferendis cumque quaerat
+              aliquid unde. Aliis nemo.</p>
           </div>
-          <div class="col">
-            <img src="assets/logo1.png" alt="3 slide" class="img-fluid">
+          <div class="col-sm-12 col-lg-4">
+            <div class="subject">
+              <span class="service_icon">
+                <i class="fab fa-affiliatetheme"></i>
+              </span>
+              <h5>lorem</h5>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur, am exercitationem quod iusto eius dicta qui possimus dignissimos!
+              Ullam velit harum quis nemo.</p>
           </div>
-          <div class="col">
-            <img src="assets/logo2.png" alt="1 slide" class="img-fluid">
+        </div>
+        <!--    END 1ST ROW-->
+        <!--    START 2ND ROW-->
+        <div class="row text-center">
+          <!--      ITEM 1-->
+          <div class="col-sm-12 col-lg-4">
+            <div class="subject">
+              <span class="service_icon">
+                <i class="fab fa-affiliatetheme"></i>
+              </span>
+              <h5>lorem</h5>
+            </div>
+            <p class="info'">Lorem ipsum dolor sit auid unde. Aliquam exercitationem quod iusto eius dicta qui possimus
+              dignissimos! Ullam
+              velit harum quis nemo.</p>
           </div>
-          <div class="col">
-            <img src="assets/logo3.png" alt="2 slide" class="img-fluid">
+          <!--      END ITEM 1-->
+          <!--      ITEM 2-->
+          <div class="col-sm-12 col-lg-4">
+            <div class="subject">
+              <span class="service_icon">
+                <i class="fab fa-affiliatetheme"></i>
+              </span>
+              <h5>lorem</h5>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur nam tempore perferendis cumque quaerat
+              aliqt harum quis nemo.</p>
           </div>
+          <!--      END ITEM 2-->
+          <!--      ITEM 3-->
+          <div class="col-sm-12 col-lg-4">
+            <div class="subject">
+              <span class="service_icon">
+                <i class="fab fa-affiliatetheme"></i>
+              </span>
+              <h5>lorem</h5>
+            </div>
+            <p>Lorem ipsum dolor sit amet nde. Aliquam exercitationem quod iusto eius dicta qui possimus dignissimos! Ullam
+              velit harum quis nemo.</p>
+          </div>
+        </div>
+        <!--    END ITEM 3-->
+        <!--    END SECOND ROW-->
+      </div>
+    </section>
+    <!--END SERVICES SECTION-->
+    <!--BEGIN THE PROJECTS SECTION-->
+    <div id="projects" class="container">
+      <div class="container">
+        <div class="row justify-content-center mb-3">
           <div class="col">
-            <img src="assets/logo1.png" alt="3 slide" class="img-fluid">
+            <div class="text-center pt-5">
+              <h3 class="section_title mb-4">Projects</h3>
+              <p class="text-uppercase pb-3">
+                Lorem ipsum dolor sitm molestiae unde oremque, nobis doloribus.
+              </p>
+            </div>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quo tempore blanditiis accusamus nobis
+              recusandae laboriosam quisquam a repudiandae eius! Minus aliquid, odit rerum quisquam quibusdam dolorum. Minus,
+              enim fuga.
+            </p>
+          </div>
+        </div>
+        <!--START ITEM CAROUSEL -->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="2000">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col">
+                  <img src="assets/box.jpg" class="img-fluid">
+                </div>
+                <div class="col">
+                  <img src="assets/box.jpg" class="img-fluid">
+                </div>
+                <div class="col">
+                  <img src="assets/box.jpg" class="img-fluid">
+                </div>
+                <div class="col">
+                  <img src="assets/box.jpg" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col">
+                  <img src="assets/box.jpeg" class="img-fluid">
+                </div>
+                <div class="col">
+                  <img src="assets/box.jpg" class="img-fluid">
+                </div>
+                <div class="col">
+                  <img src="assets/box.jpg" class="img-fluid">
+                </div>
+                <div class="col">
+                  <img src="assets/box.jpg" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
         </div>
       </div>
-      <!--  END 1ST ITEM  -->
-
-      <!--  START 2ND ITEM  -->
-      <div class="carousel-item">
-        <div class="row">
-          <div class="col">
-            <img src="assets/logo2.png" alt="1 slide" class="img-fluid">
-          </div>
-          <div class="col">
-            <img src="assets/logo3.png" alt="2 slide" class="img-fluid">
-          </div>
-          <div class="col">
-            <img src="assets/logo1.png" alt="3 slide" class="img-fluid">
-          </div>
-          <div class="col">
-            <img src="assets/logo2.png" alt="1 slide" class="img-fluid">
-          </div>
-          <div class="col">
-            <img src="assets/logo3.png" alt="2 slide" class="img-fluid">
-          </div>
-          <div class="col">
-            <img src="assets/logo1.png" alt="3 slide" class="img-fluid">
+      <!-- END ITEM CAROUSEL-->
+    </div>
+    <!--END THE PROJECTS SECTION-->
+    <!--START THE CLIENT SECTION-->
+    <div id="clients" class="h-120 w-100 overlay overlay-show text-white mt-3">
+      <div class="container">
+        <!-- START SECTION INFO -->
+        <div class="row justify-content-center text-center">
+          <h3 class="mt-4 pt-3 section_title">Clients</h3>
+          <p class="w-100 text-uppercase mt-1 pt-2">
+            Ab architecto cum cumque doloremque, esse excepturi itaque praesentium
+            quam.</p>
+        </div>
+        <!-- END SECTION INFO -->
+        <!-- START LOGO SLIDER -->
+        <div id="logo-slider" class="carousel slide mt-3 pt-3" data-ride="carousel" data-interval=3000>
+          <div class="carousel-inner">
+            <!--  START 1ST ITEM  -->
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col">
+                  <img src="assets/logo2.png" alt="1 slide" class="img-fluid">
+                </div>
+                <div class="col">
+                  <img src="assets/logo3.png" alt="2 slide" class="img-fluid">
+                </div>
+                <div class="col">
+                  <img src="assets/logo1.png" alt="3 slide" class="img-fluid">
+                </div>
+                <div class="col">
+                  <img src="assets/logo2.png" alt="1 slide" class="img-fluid">
+                </div>
+                <div class="col">
+                  <img src="assets/logo3.png" alt="2 slide" class="img-fluid">
+                </div>
+                <div class="col">
+                  <img src="assets/logo1.png" alt="3 slide" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <!--  END 1ST ITEM  -->
+            <!--  START 2ND ITEM  -->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col">
+                  <img src="assets/logo2.png" alt="1 slide" class="img-fluid">
+                </div>
+                <div class="col">
+                  <img src="assets/logo3.png" alt="2 slide" class="img-fluid">
+                </div>
+                <div class="col">
+                  <img src="assets/logo1.png" alt="3 slide" class="img-fluid">
+                </div>
+                <div class="col">
+                  <img src="assets/logo2.png" alt="1 slide" class="img-fluid">
+                </div>
+                <div class="col">
+                  <img src="assets/logo3.png" alt="2 slide" class="img-fluid">
+                </div>
+                <div class="col">
+                  <img src="assets/logo1.png" alt="3 slide" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <!--  END 2ND ITEM  -->
           </div>
         </div>
-      </div>
-      <!--  END 2ND ITEM  -->
+        <!--  END LOGO SLIDER  -->
+        <!--  START QUOTE SLIDER  -->
+        <div id="quote-slider" class="carousel slider text-center mt-4 pt-4" data-ride="carousel" data-interval=4000>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col">
+                  <blockquote>Lorem ipsum dolor sit ae voluptates nesciunt neque, maiores, minus distinctio facere!</blockquote>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col">
+                  <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quia facilis? Quae dolorem omnis perferendis beatae vitae. Aut nam dolorum totam iste recusandae voluptates nesciunt neque, maiores, minus distinctio facere!</blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  END QUOCTE SLIDER  -->
       </div>
     </div>
-    <!--  END LOGO SLIDER  -->
-
-    <!--  START QUOTE SLIDER  -->
-    <div id="quote-slider" class="carousel slider text-center mt-4 pt-4" data-ride="carousel" data-interval=4000>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-        <div class="row">
-          <div class="col">
-            <blockquote>Lorem ipsum dolor sit ae voluptates nesciunt neque, maiores, minus distinctio facere!</blockquote>
-          </div>
-        </div>
-        </div>
-        <div class="carousel-item">
-        <div class="row">
-          <div class="col">
-            <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quia facilis? Quae dolorem omnis perferendis beatae vitae. Aut nam dolorum totam iste recusandae voluptates nesciunt neque, maiores, minus distinctio facere!</blockquote>
-          </div>
-        </div>
+    <!--END THE CLIENT SECTION-->
+    <!-- START THE  TEAM SECTION  -->
+    <div id="team" class="container">
+      <div class="row justify-content-center text-center mt-3 pt-3">
+        <div class="col-lg-3 col-md-6">
+          <h3 class="section_title">TEAM</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
         </div>
       </div>
-    </div>
-    <!--  END QUOCTE SLIDER  -->
-  </div>
-</div>
-<!--END THE CLIENT SECTION-->
-
-<!-- START THE  TEAM SECTION  -->
-  <div id="team" class="container">
-    <div class="row justify-content-center text-center mt-3 pt-3">
-      <div class="col">
-        <h3 class="section_title">TEAM</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col">
-        <div class="card">
-          <img src="assets/person.png" alt="person1" class="card-img-top img-fluid">
-          <div class="card-body">
-            <h5 class="card-title">Name</h5>
-            <h6 class="card-subtitle mb-2">Lorem, ipsum dolor</h6>
-            <p class="card-text mt-2 pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-            <div class="text-center">
-              <a href="#" class="card-link"><i class="fab fa-facebook"></i></a>
-              <a href="#" class="card-link"><i class="fab fa-twitter"></i></a>
-              <a href="#" class="card-link"><i class="fab fa-linkedin"></i></a>
+      <div class="row row mb-4 pb-4">
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <img src="assets/person.png" alt="person1" class="card-img-top img-fluid">
+            <div class="card-body">
+              <h5 class="card-title">Name</h5>
+              <h6 class="card-subtitle mb-2">Lorem, ipsum dolor</h6>
+              <p class="card-text mt-2 pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+              <div class="text-center">
+                <a href="#" class="card-link"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="card-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="card-link"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <img src="assets/person.png" alt="person1" class="card-img-top img-fluid">
+            <div class="card-body">
+              <h5 class="card-title">Name</h5>
+              <h6 class="card-subtitle mb-2">Lorem, ipsum dolor</h6>
+              <p class="card-text mt-2 pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+              <div class="text-center">
+                <a href="#" class="card-link"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="card-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="card-link"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <img src="assets/person.png" alt="person1" class="card-img-top img-fluid">
+            <div class="card-body">
+              <h5 class="card-title">Name</h5>
+              <h6 class="card-subtitle mb-2">Lorem, ipsum dolor</h6>
+              <p class="card-text mt-2 pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <div class="text-center">
+                <a href="#" class="card-link"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="card-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="card-link"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/person.png" alt="person1" class="card-img-top img-fluid">
+            <div class="card-body">
+              <h5 class="card-title">Name</h5>
+              <h6 class="card-subtitle mb-2">Lorem, ipsum dolo</h6>
+              <p class="card-text mt-2 pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+              <div class="text-center">
+                <a href="#" class="card-link"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="card-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="card-link"><i class="fab fa-linkedin"></i></a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card">
-          <img src="assets/person.png" alt="person1" class="card-img-top img-fluid">
-          <div class="card-body">
-            <h5 class="card-title">Name</h5>
-            <h6 class="card-subtitle mb-2">Lorem, ipsum dolor</h6>
-            <p class="card-text mt-2 pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-            <div class="text-center">
-              <a href="#" class="card-link"><i class="fab fa-facebook"></i></a>
-              <a href="#" class="card-link"><i class="fab fa-twitter"></i></a>
-              <a href="#" class="card-link"><i class="fab fa-linkedin"></i></a>
-            </div>
-          </div>
+    </div>
+    <!-- END THE  TEAM SECTION  -->
+    <!--  START THE CONTACT SECTION  -->
+    <div id="contact" class="container-fluid pt-4">
+      <div class="row">
+        <!--  START GOOGLE MAP  -->
+        <div class="col">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3329558865466!2d106.66519071418269!3d10.785790761971585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f46a5475b7f%3A0x9ce48154f12fd7da!2sGolden%20Owl%20Asia%20office!5e0!3m2!1sen!2s!4v1566965882095!5m2!1sen!2s" class="w-100 h-100"  frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="assets/person.png" alt="person1" class="card-img-top img-fluid">
-          <div class="card-body">
-            <h5 class="card-title">Name</h5>
-            <h6 class="card-subtitle mb-2">Lorem, ipsum dolor</h6>
-            <p class="card-text mt-2 pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <div class="text-center">
-              <a href="#" class="card-link"><i class="fab fa-facebook"></i></a>
-              <a href="#" class="card-link"><i class="fab fa-twitter"></i></a>
-              <a href="#" class="card-link"><i class="fab fa-linkedin"></i></a>
+        <!--  END GOOGLE MAP  -->
+        <!--  START FORM  -->
+        <div class="col">
+          <h3 class="section-header text-center">CONTACT US</h3>
+          <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+          <form>
+            <div class="form-group row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="first name">
+              </div>
+              <div class="col">
+                <input type="email" class="form-control" placeholder="email">
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="assets/person.png" alt="person1" class="card-img-top img-fluid">
-          <div class="card-body">
-            <h5 class="card-title">Name</h5>
-            <h6 class="card-subtitle mb-2">Lorem, ipsum dolo</h6>
-            <p class="card-text mt-2 pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-            <div class="text-center">
-              <a href="#" class="card-link"><i class="fab fa-facebook"></i></a>
-              <a href="#" class="card-link"><i class="fab fa-twitter"></i></a>
-              <a href="#" class="card-link"><i class="fab fa-linkedin"></i></a>
+            <div class="form-group row">
+              <input type="text" class=form-control placeholder="subject">
             </div>
-          </div>
+            <div class="form-group row">
+              <textarea class="form-control" placeholder="message" rows="10"></textarea>
+            </div>
+            <div class="form-group row justify-content-center">
+              <button type="submit" class="btn btn-primary">submit</button>
+            </div>
+          </form>
         </div>
+        <!--  END FORM  -->
       </div>
     </div>
-  </div>
-<!-- END THE  TEAM SECTION  -->
-</body>
+    <!--  END THE CONTACT SECTION  -->
+    <section class="bg-primary pt-4 text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col d-flex">
+            <div class="mr-2">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div>
+              <h5>lorem</h5>
+              <p>Lorem ipsum dolor sit amet</p>
+            </div>
+          </div>
+          <div class="col d-flex">
+            <div class="mr-2">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div>
+              <h5>lorem</h5>
+              <p>Lorem ipsum dolor sit amet</p>
+            </div>
+          </div>
+          <div class="col d-flex">
+            <div class="mr-2">
+              <i class="fas fa-share-alt"></i>
+            </div>
+            <div>
+              <h5>lorem</h5>
+              <p>Lorem ipsum dolor sit amet</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="justify-content-center page-footer text-center container-fluid">
+      <div class="row">
+        <div class="col">
+          <i class="far fa-copyright"></i>    2018 copyright
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

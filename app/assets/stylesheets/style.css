@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
 
-header.menutren {
+body{
+    position: relative;
+}
+
+.menutren {
     background-color: #80808000;
     width: 100%;
     height: 100px;
@@ -64,7 +68,7 @@ nav ul li a:hover {
     font-size: 24px;
 }
 
-div#carouselExampleControls {
+ div#carouselExampleControls {
     height: 700px;
 }
 
@@ -130,7 +134,7 @@ h5 {
     height: auto;
 }
 
-#projects{
+#projects {
     height: 392px;
 }
 
@@ -138,4 +142,12 @@ h5 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("waterfall.jpg");
     background-size: cover;
     height: 450px;
+}
+
+#contact {
+    background: rgba(128, 128, 128, 0.089);
+    height: auto;
+}
+#team{
+    height: auto;
 }

@@ -1,4 +1,6 @@
-$(document).ready(function () {
+// $(document).ready(function () {
+$( document ).on('turbolinks:load', function() {
+    // handle navbar background color change when start scrolling
     var scroll_pos = 0;
     $(document).scroll(function () {
         scroll_pos = $(this).scrollTop();
@@ -9,5 +11,22 @@ $(document).ready(function () {
         }
     });
 
-    
+    //handle image drag effect
+    $(".carousel").swipe ({
+        swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
+            if (direction == 'left') $(this).carousel('next');
+            if (direction == 'right') $(this).carousel('prev');
+        },
+        // allowPageScroll: "vertical"
+    });
+
+    //define hover effect of dropdown menu
+    $("#navbarDropdown").hover(function () {
+        // over
+        $(".dropdown-menu").addClass("show");
+    }, function () {
+        // out
+        $(".dropdown-menu").removeClass("show");
+    });
+
 });

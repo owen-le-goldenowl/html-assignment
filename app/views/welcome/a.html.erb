@@ -1,16 +1,56 @@
-<h2>get json from server</h2>
-<button class="getJSONBtn"> click</button>
-<p id="showJSON"></p>
-<script type="text/javascript" charset="utf-8">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>get json from server</h2>
+    <button class="getJSONBtn"> click</button>
+    <p id="showJSON"></p>
+    <!-- start image file preview demo-->
+    <div class="container-fluid mt-4 pt-4 justify-content-center text-center" id="image-preview">
+      <input type="file" id="image-input">
+      <br>
+      <img id="image-show" class="img-fluid mt-2">
+    </div>
+    <!-- end image file preview demo-->
+  </body>
+  <script>
+    $(document).ready(function () {
     $('.getJSONBtn').click(function () {
-        $.ajax({
-            url: '/test.jso'
-        })
-            .done(function (data) {
-                $("#showJSON").append(data.name + ": " + data.age + "\n");
-            })
-            .fail(function (data) {
-                alert('error');
-            })
+          $.ajax({
+    url: '/test.json'
+          })
+    .done(function (data) {
+        $("#showJSON").append(data.name + ": " + data.age + "\n");
+    })
+    .fail(function (data) {
+        alert('error');
+    })
+      });
+          // handle image preview
+    $('#image-preview #image-input').change(function (e) {
+        e.preventDefault();
+        if (this.files.length>0){
+           var imgFile=this.files[0];
+           var fileType=imgFile.type;
+           var validFileTypes=["image/gif","image/png","image/jpg","image/jpeg"];
+           if (validFileTypes.includes(fileType)){
+                var reader=new FileReader();
+                reader.readAsDataURL(imgFile);
+                reader.onload=function(){
+                    $('#image-show').attr('src',reader.result);
+                }
+           }
+           else{
+               alert('File type not allowed!');
+
+           }
+        }
     });
-</script>
+    });
+  </script>
+</html>
