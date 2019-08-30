@@ -16,8 +16,7 @@ $(document).on('turbolinks:load', function () {
         swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
             if (direction == 'left') $(this).carousel('next');
             if (direction == 'right') $(this).carousel('prev');
-        },
-        // allowPageScroll: "vertical"
+        }
     });
 
     //define hover effect of dropdown menu
