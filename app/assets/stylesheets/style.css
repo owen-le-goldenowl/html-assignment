@@ -77,14 +77,6 @@ img.d-block.w-100 {
     filter: brightness(0.6);
 }
 
-a.carousel-control-prev {
-    margin-top: auto;
-}
-
-a.carousel-control-next {
-    margin-top: auto;
-}
-
 .carousel-caption {
     top: 42%;
 }
