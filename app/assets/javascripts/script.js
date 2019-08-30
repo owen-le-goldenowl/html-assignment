@@ -23,14 +23,10 @@ $( document ).on('turbolinks:load', function() {
     //define hover effect of dropdown menu
     $("#navbarDropdown").hover(function () {
         // over
-        $(".dropdown-menu").stop(true,true).addClass("show");
+        $(".dropdown-menu").addClass("show");
     }, function () {
         // out
-        $(".dropdown-menu").stop(true,true).removeClass("show");
+        $(".dropdown-menu").removeClass("show");
     });
-    // $(".dropdown-menu").mouseover(function () {
-    //     $(".dropdown-menu").css('display','block');
-    // });
-    // $("#scroll").scrollspy();
 
 });
