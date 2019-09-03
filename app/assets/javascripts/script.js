@@ -19,13 +19,4 @@ $(document).on('turbolinks:load', function () {
         }
     });
 
-    //define hover effect of dropdown menu
-    $(".dropdown").mouseenter(function () {
-        $(".dropdown-menu").css("display", "block");
-    });
-
-    $(".dropdown-menu").mouseleave(function () {
-        $(".dropdown-menu").css("display", "none");
-    });
-
 });
