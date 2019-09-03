@@ -1,5 +1,5 @@
 // $(document).ready(function () {
-$( document ).on('turbolinks:load', function() {
+$(document).on('turbolinks:load', function () {
     // handle navbar background color change when start scrolling
     var scroll_pos = 0;
     $(document).scroll(function () {
@@ -12,21 +12,11 @@ $( document ).on('turbolinks:load', function() {
     });
 
     //handle image drag effect
-    $(".carousel").swipe ({
+    $(".carousel").swipe({
         swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
             if (direction == 'left') $(this).carousel('next');
             if (direction == 'right') $(this).carousel('prev');
-        },
-        // allowPageScroll: "vertical"
-    });
-
-    //define hover effect of dropdown menu
-    $("#navbarDropdown").hover(function () {
-        // over
-        $(".dropdown-menu").addClass("show");
-    }, function () {
-        // out
-        $(".dropdown-menu").removeClass("show");
+        }
     });
 
 });
